@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Local session export; it can contain prompts, tool results, and identifiers.
+viewing-etc-hosts-contents.json
+
+# Temporary diagnostic captures must never enter the repository.
+auto-approve-review-input.json
+auto-approve-trace.jsonl

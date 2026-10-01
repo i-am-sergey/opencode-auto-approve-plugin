@@ -1,0 +1,14 @@
+{
+  "name": "opencode-auto-approve-plugin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/policy.test.mjs tests/lifecycle.test.mjs tests/diagnostics.test.mjs tests/tui.test.mjs"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "2.0.20",
+    "solid-js": "^1.9.15",
+    "typescript": "5.8.2"
+  }
+}

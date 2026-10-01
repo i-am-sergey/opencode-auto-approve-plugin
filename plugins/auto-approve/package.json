@@ -1,0 +1,13 @@
+{
+  "name": "opencode-auto-approve-plugin",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./rpc": "./rpc.ts",
+    "./tui": "./tui.ts"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.0.21"
+  }
+}
